@@ -15,7 +15,7 @@
 
    ```bash
    docker run --rm -it -e DOCKER_HOST=unix:///var/run/docker.sock -p 4566:4566 -p 4510-4559:4510-4559 localstack/localstack
-
+```bach
 aws configure set aws_access_key_id test
 aws configure set aws_secret_access_key test
 aws configure set region us-east-1
